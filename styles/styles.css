@@ -12,25 +12,8 @@ html {
     background-color: rgb(216, 203, 188);
 }
 
-/* grid */
-
 .header {
     background-color: bisque;
-    grid-area: header;
-}
-
-.footer {
-    grid-area: footer;
-}
-
-.grid-container {
-    display: grid;
-    min-height: 100%;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
-    grid-template-rows: 120px auto 100px;
 }
 
 /* menu */
@@ -43,6 +26,7 @@ html {
 
 .menu {
     display: flex;
+    margin: 10px;
 }
 
 .menu li a{
@@ -53,7 +37,7 @@ html {
 .menu__item {
     display: inline-block;
     font-size: 18px;
-    margin: 0 10px;
+    padding: 10px;
     width: max-content;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
@@ -72,18 +56,14 @@ html {
 
 .logo {
     width: 100px;
-    margin-left: 100px;
-    margin-top: 10px;
+    margin: 10px 100px;
 }
 
 /* main */
 
 h1 {
     position: absolute;
-    text-transform: uppercase;
-    left: 50%;
     top: 50%;
-    transform: translate(-50%);
     font-size: 100px;
     color: ghostwhite;
     text-shadow: 0 0 15px black;
@@ -142,7 +122,7 @@ footer li a:hover {
     color: whitesmoke;
     font-size: 50px;
     text-align: center;
-    padding-top: 10%;
+    padding-top: 5%;
     font-family: "Oswald";
     text-shadow: 0 0 15px black;
 }
@@ -150,8 +130,7 @@ footer li a:hover {
 .info-text {
     color: whitesmoke;
     font-size: 17px;
-    text-align: center;
-    padding: 30px;
+    padding: 0 30%;
     font-family: "Oswald";
     text-shadow: 0 0 8px black;
 }
@@ -184,6 +163,10 @@ footer li a:hover {
     text-shadow: 0 0 3px black;
 }
 
+.textline-bot a {
+    text-shadow: 0 0 1px black;
+}
+
 /* menu-ubicacion */
 
 .title-ubicacion {
@@ -197,7 +180,9 @@ footer li a:hover {
 
 .maps {
     display: block;
-    margin: auto;
+    margin-left: 34%;
+    width: 600px; 
+    height: 450px;
 }
 
 /* menu-contacto */
@@ -248,23 +233,10 @@ input[type=submit] {
     margin-bottom: 6px;
 }
 
-input[type=reset] {
-    background-color: #d49d36;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
 /* media-query */
 
 @media (max-width: 600px) {
-    .grid-container {
-        grid-template-rows: 130px auto 70px;
-    }
     .nav {
-        grid-template-columns: 1fr;
         align-items: center;
     }
     .logo {
