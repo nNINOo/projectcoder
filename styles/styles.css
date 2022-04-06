@@ -240,6 +240,42 @@ input[type=submit] {
 
 /* media-query */
 
+@media screen and (max-width: 1620px) {
+
+    .titles-text {
+        margin-top: 10%;
+    }
+
+    .title-ubicacion {
+        margin-top: 10%;
+    }
+
+    .maps {
+        margin: auto;
+    }
+
+    .title-contacto {
+        margin-top: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 1135px) {
+
+    .titles-text {
+        margin-top: 15%;
+    }
+
+    .title-ubicacion {
+        margin-top: 15%;
+    }
+
+    .title-contacto {
+        margin-top: 15%;
+    }
+    
+}
+
 @media screen and (max-width: 991px) {
     
     h1 {
@@ -268,21 +304,17 @@ input[type=submit] {
     .image-product {
         width: 160px;
         height: 160px;
-        margin-left: 35%;
+        margin-left: auto;
     }
 
     .textline-bot {
         font-size: 14px;
     }
 
-    .maps {
-        width: 450px;
-        height: 600px;
-    }
-
     .title-ubicacion {
         font-size: 25px;
     }
+    
 
     .title-contacto {
         font-size: 25px;
@@ -292,4 +324,52 @@ input[type=submit] {
         font-size: 16px;
     }
 
+}
+
+@media screen and (max-width: 775px) {
+
+    .titles-text {
+        margin-top: 20%;
+    }
+
+    .title-ubicacion {
+        margin-top: 20%;
+    }
+
+    .title-contacto {
+        margin-top: 20%;
+    }
+
+    .info-title {
+        margin-top: 6%;
+    }
+
+    .info-text {
+        padding-top: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 605px) {
+
+    .titles-text {
+        margin-top: 30%;
+    }
+
+    .title-ubicacion {
+        margin-top: 30%;
+    }
+
+    .title-contacto {
+        margin-top: 30%;
+    }
+
+    .info-title {
+        margin-top: 10%;
+    }
+
+    .info-text {
+        padding-top: 14%;
+    }
+    
 }
