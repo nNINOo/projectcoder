@@ -28,28 +28,23 @@ header {
 }
 
 .nav-item {
-    display: inline-block;
     font-size: 18px;
     padding: 10px;
-    width: max-content;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: rgb(153, 74, 0);
 }
 
-.nav-link {
-    padding: 8px 12px;
+.navbar-light .navbar-nav .nav-link {
+    padding: 3px 5px;
     border-radius: 5px;
     color: rgb(153, 74, 0);
 }
-
-.nav-link:hover {
+.navbar-light .navbar-nav .nav-link:hover {
     background-color: rgb(153, 74, 0);
     color: bisque;
     transition: 0.5s;
 }
-
-
 
 /* main */
 
@@ -121,7 +116,7 @@ footer li a:hover {
 }
 
 .info-text {
-    margin-top: 25%;
+    margin-top: 20%;
     color: whitesmoke;
     font-size: 17px;
     font-family: "Oswald";
@@ -173,7 +168,7 @@ footer li a:hover {
 /* menu-ubicacion */
 
 .title-ubicacion {
-    margin-top: 6%;
+    margin-top: 7%;
     color: whitesmoke;
     font-size: 25px;
     text-align: center;
@@ -193,7 +188,7 @@ footer li a:hover {
 
 
 .title-contacto {
-    margin-top: 6%;
+    margin-top: 7%;
     color: whitesmoke;
     font-size: 25px;
     text-align: center;
@@ -272,6 +267,10 @@ input[type=submit] {
 
     .title-contacto {
         margin-top: 15%;
+    }
+
+    .info-text {
+        margin-top: 25%;
     }
     
 }
@@ -372,4 +371,71 @@ input[type=submit] {
         padding-top: 14%;
     }
     
+}
+
+@media screen and (max-width: 425px) {
+
+    .info-title {
+        margin-top: 15%;
+    }
+
+    .info-text {
+        padding-top: 25%;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+
+    .info-title {
+        font-size: 40px;
+        margin-top: 20%;
+    }
+
+    .info-text {
+        padding-top: 30%;
+    }
+    
+}
+
+@media screen and (max-width: 375px) {
+
+    .titles-text {
+        margin-top: 37%;
+    }
+
+    .title-ubicacion {
+        margin-top: 35%;
+    }
+
+    .title-contacto {
+        margin-top: 35%;
+    }
+    
+}
+
+@media screen and (max-width: 320px) {
+    
+    .titles-text {
+        margin-top: 43%;
+    }
+
+    .title-ubicacion {
+        font-size: 22px;
+        margin-top: 40%;
+    }
+
+    .title-contacto {
+        margin-top: 40%;
+    }
+
+    .info-title {
+        font-size: 40px;
+        margin-top: 25%;
+    }
+
+    .info-text {
+        padding-top: 35%;
+    }
+        
 }
