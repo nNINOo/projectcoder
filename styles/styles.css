@@ -18,7 +18,10 @@ header {
     margin-top: 40px;
     position: absolute;
     z-index: 1;
-    background-color: bisque;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 1.3s;
 }
 
 /* MENU BOOTSTRAP */
@@ -80,26 +83,38 @@ footer p {
     color: rgb(153, 74, 0);
 }
 
-footer li a {
-    text-decoration: none;
-    color: rgb(153, 74, 0);
-    padding: 2px 4px;
-    border-radius: 2px;
-}
-
-footer li {
-    display: inline-block;
-    position: relative;
-    padding: 5px 10px;
+.bi {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
 }
 
 footer ul {
     text-align: center;
 }
 
-footer li a:hover {
-    background-color: rgb(153, 74, 0);
-    color: bisque;
+footer li {
+    display: inline-block;
+    position: relative;
+}
+
+footer li a {
+    text-decoration: none;
+    color: rgb(153, 74, 0);
+}
+
+.bi-instagram:hover {
+    color: rgb(255, 9, 206);
+    transition: 0.5s;
+}
+
+.bi-facebook:hover {
+    color: rgb(0, 64, 255);
+    transition: 0.5s;
+}
+
+.bi-twitter:hover {
+    color: rgb(25, 189, 248);
     transition: 0.5s;
 }
 
@@ -144,8 +159,14 @@ footer li a:hover {
     text-shadow: 0 0 3px black;
 }
 
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .image-product {
-    align-items: center;
     width: 200px;
     height: 200px;
     padding: 10px;
@@ -303,7 +324,6 @@ input[type=submit] {
     .image-product {
         width: 160px;
         height: 160px;
-        margin-left: auto;
     }
 
     .textline-bot {
