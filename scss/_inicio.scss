@@ -1,0 +1,19 @@
+/* INICIO */
+
+h1 {
+    position: absolute;
+    top: 50%;
+    font-size: 100px;
+    color: ghostwhite;
+    text-shadow: 0 0 15px black;
+    font-family: "Oswald";
+}
+
+.background-image {
+    grid-area: main;
+    background-image: url(../images/welcome.jpg);
+    background-position: center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    height: 100vh;
+}

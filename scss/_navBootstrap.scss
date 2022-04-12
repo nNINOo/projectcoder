@@ -1,0 +1,25 @@
+/* MENU BOOTSTRAP */
+
+.logo {
+    width: 100px;
+}
+
+.nav-item {
+    font-size: 18px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(153, 74, 0);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding: 3px 5px;
+    border-radius: 5px;
+    color: rgb(153, 74, 0);
+
+    &:hover {
+    background-color: rgb(153, 74, 0);
+    color: bisque;
+    transition: 0.5s;
+    }
+}

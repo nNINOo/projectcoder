@@ -1,0 +1,44 @@
+/* FOOTER */
+
+footer {
+    background-color: bisque;
+    p {
+    text-align: center;
+    padding-top: 15px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 74, 0);
+    }
+    ul{
+        text-align: center;
+        li {                  
+            display: inline-block;
+            position: relative;
+            a {
+                text-decoration: none;
+                color: rgb(153, 74, 0);
+            }
+        }
+    }
+}
+
+.bi {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.bi-instagram:hover {
+    color: rgb(255, 9, 206);
+    transition: 0.5s;
+}
+
+.bi-facebook:hover {
+    color: rgb(0, 64, 255);
+    transition: 0.5s;
+}
+
+.bi-twitter:hover {
+    color: rgb(25, 189, 248);
+    transition: 0.5s;
+}

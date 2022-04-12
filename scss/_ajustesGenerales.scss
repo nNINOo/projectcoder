@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.background-default{
+    background-color: rgb(216, 203, 188);
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    position: absolute;
+    z-index: 1;
+}
+
+.animate__animated.animate__fadeIn {
+    --animate-duration: 1.3s;
+}

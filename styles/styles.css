@@ -396,18 +396,6 @@ input[type=submit] {
 @media screen and (max-width: 425px) {
 
     .info-title {
-        margin-top: 15%;
-    }
-
-    .info-text {
-        padding-top: 25%;
-    }
-    
-}
-
-@media screen and (max-width: 425px) {
-
-    .info-title {
         font-size: 40px;
         margin-top: 20%;
     }

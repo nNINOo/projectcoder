@@ -1,0 +1,46 @@
+/* menu-productos */
+
+.titles-text {
+    margin-top: 7%;
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Oswald";
+    text-shadow: 0 0 3px black;
+}
+
+.titles-text2 {
+    color: whitesmoke;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Oswald";
+    text-shadow: 0 0 3px black;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-product {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    text-shadow: 0 0 15px black;
+}
+
+.textline-bot {
+    color: whitesmoke;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    font-family: "Oswald";
+    text-shadow: 0 0 3px black;
+     a {
+        text-shadow: 0 0 1px black;
+    }
+}
