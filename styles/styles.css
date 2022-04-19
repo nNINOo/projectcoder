@@ -1,4 +1,4 @@
-* {
+/* * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -23,10 +23,10 @@ header {
 .animate__animated.animate__fadeIn {
     --animate-duration: 1.3s;
 }
-
+ */
 /* MENU BOOTSTRAP */
 
-.logo {
+/* .logo {
     width: 100px;
 }
 
@@ -47,11 +47,11 @@ header {
     background-color: rgb(153, 74, 0);
     color: bisque;
     transition: 0.5s;
-}
+} */
 
 /* main */
 
-h1 {
+/* h1 {
     position: absolute;
     top: 50%;
     font-size: 100px;
@@ -67,11 +67,11 @@ h1 {
     background-size: cover;
     -webkit-background-size: cover;
     height: 100vh;
-}
+} */
 
 /* footer */
 
-footer {
+/* footer {
     background-color: bisque;
 }
 
@@ -116,11 +116,11 @@ footer li a {
 .bi-twitter:hover {
     color: rgb(25, 189, 248);
     transition: 0.5s;
-}
+} */
 
 /* menu-info */ 
 
-.info-title {
+/* .info-title {
     position: absolute;
     color: whitesmoke;
     font-size: 50px;
@@ -136,11 +136,11 @@ footer li a {
     font-size: 17px;
     font-family: "Oswald";
     text-shadow: 0 0 8px black;
-}
+} */
 
 /* menu-productos */
 
-.titles-text {
+/* .titles-text {
     margin-top: 7%;
     color: whitesmoke;
     font-size: 30px;
@@ -184,11 +184,11 @@ footer li a {
 
 .textline-bot a {
     text-shadow: 0 0 1px black;
-}
+} */
 
 /* menu-ubicacion */
 
-.title-ubicacion {
+/* .title-ubicacion {
     margin-top: 7%;
     color: whitesmoke;
     font-size: 25px;
@@ -203,12 +203,12 @@ footer li a {
     margin-left: 34%;
     width: 600px; 
     height: 450px;
-}
+} */
 
 /* menu-contacto */
 
 
-.title-contacto {
+/* .title-contacto {
     margin-top: 7%;
     color: whitesmoke;
     font-size: 25px;
@@ -253,10 +253,10 @@ input[type=submit] {
     cursor: pointer;
     margin: 10px;
 }
-
+ */
 /* media-query */
 
-@media screen and (max-width: 1620px) {
+/* @media screen and (max-width: 1620px) {
 
     .titles-text {
         margin-top: 10%;
@@ -446,4 +446,4 @@ input[type=submit] {
         padding-top: 35%;
     }
         
-}
+} */

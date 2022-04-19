@@ -2,43 +2,39 @@
 
 .titles-text {
     margin-top: 7%;
-    color: whitesmoke;
+    color: map-get($estilos, color);
     font-size: 30px;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     padding: 10px;
-    font-family: "Oswald";
+    font-family: map-get($estilos, fuente);
     text-shadow: 0 0 3px black;
 }
 
 .titles-text2 {
-    color: whitesmoke;
+    color: map-get($estilos, color);
     font-size: 30px;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     padding: 10px;
-    font-family: "Oswald";
+    font-family: map-get($estilos, fuente);
     text-shadow: 0 0 3px black;
 }
 
 .products {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include productos-flex;
 }
 
 .image-product {
-    width: 200px;
-    height: 200px;
+    @include image-size (200px, 200px);
     padding: 10px;
     text-shadow: 0 0 15px black;
 }
 
 .textline-bot {
-    color: whitesmoke;
+    color: map-get($estilos, color);
     font-size: 16px;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     padding: 10px;
-    font-family: "Oswald";
+    font-family: map-get($estilos, fuente);
     text-shadow: 0 0 3px black;
      a {
         text-shadow: 0 0 1px black;

@@ -1,0 +1,21 @@
+/* MAP */
+
+$estilos: (
+    color: #f5f5f5,
+    centro: center,
+    fuente: "Oswald"
+);
+
+/* MIXIN */
+
+@mixin productos-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin image-size ($ancho , $alto) {
+    height: $alto;
+    width: $ancho;
+}

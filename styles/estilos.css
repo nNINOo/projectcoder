@@ -1,3 +1,5 @@
+/* MAP */
+/* MIXIN */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -44,12 +46,11 @@ h1 {
   position: absolute;
   top: 50%;
   font-size: 100px;
-  color: ghostwhite;
+  color: #f5f5f5;
   text-shadow: 0 0 15px black;
   font-family: "Oswald"; }
 
 .background-image {
-  grid-area: main;
   background-image: url(../images/welcome.jpg);
   background-position: center center;
   background-size: cover;
@@ -74,27 +75,29 @@ footer {
         text-decoration: none;
         color: #994a00; }
 
-.bi {
+/* extend-propio */
+.bi, .bi-instagram:hover, .bi-facebook:hover, .bi-twitter:hover {
   width: 20px;
   height: 20px;
-  margin: 0 10px; }
+  margin: 0 10px;
+  color: #994a00; }
 
 .bi-instagram:hover {
   color: #ff09ce;
-  transition: 0.5s; }
+  transition: 0.3s; }
 
 .bi-facebook:hover {
   color: #0040ff;
-  transition: 0.5s; }
+  transition: 0.3s; }
 
 .bi-twitter:hover {
   color: #19bdf8;
-  transition: 0.5s; }
+  transition: 0.3s; }
 
 /* menu-info */
 .info-title {
   position: absolute;
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 50px;
   text-align: center;
   padding-top: 15%;
@@ -103,7 +106,7 @@ footer {
 
 .info-text {
   margin-top: 20%;
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 17px;
   font-family: "Oswald";
   text-shadow: 0 0 8px black; }
@@ -111,7 +114,7 @@ footer {
 /* menu-productos */
 .titles-text {
   margin-top: 7%;
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -119,7 +122,7 @@ footer {
   text-shadow: 0 0 3px black; }
 
 .titles-text2 {
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 30px;
   text-align: center;
   padding: 10px;
@@ -133,13 +136,13 @@ footer {
   justify-content: center; }
 
 .image-product {
-  width: 200px;
   height: 200px;
+  width: 200px;
   padding: 10px;
   text-shadow: 0 0 15px black; }
 
 .textline-bot {
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 16px;
   text-align: center;
   padding: 10px;
@@ -151,7 +154,7 @@ footer {
 /* menu-ubicacion */
 .title-ubicacion {
   margin-top: 7%;
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 25px;
   text-align: center;
   padding: 10px;
@@ -167,7 +170,7 @@ footer {
 /* menu-contacto */
 .title-contacto {
   margin-top: 7%;
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 25px;
   text-align: center;
   padding: 10px;
@@ -175,7 +178,7 @@ footer {
   text-shadow: 0 0 3px black; }
 
 .subtitle {
-  color: whitesmoke;
+  color: #f5f5f5;
   font-size: 20px;
   text-align: center;
   padding: 10px;

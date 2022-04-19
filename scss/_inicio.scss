@@ -4,13 +4,12 @@ h1 {
     position: absolute;
     top: 50%;
     font-size: 100px;
-    color: ghostwhite;
+    color: map-get($estilos, color);
     text-shadow: 0 0 15px black;
-    font-family: "Oswald";
+    font-family: map-get($estilos, fuente);
 }
 
 .background-image {
-    grid-area: main;
     background-image: url(../images/welcome.jpg);
     background-position: center center;
     background-size: cover;

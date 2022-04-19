@@ -2,11 +2,11 @@
 
 .title-ubicacion {
     margin-top: 7%;
-    color: whitesmoke;
+    color: map-get($estilos, color);
     font-size: 25px;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     padding: 10px;
-    font-family: "Oswald";
+    font-family: map-get($estilos, fuente);
     text-shadow: 0 0 3px black;
 }
 

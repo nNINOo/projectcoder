@@ -1,0 +1,25 @@
+﻿SEO
+
+
+Titles: Modifiqué los titles de todas las páginas para una mayor descripción
+
+
+Meta Keywords: Agregué en todas las páginas la etiqueta “meta keywords” con las siguientes keys - panaderia, argentina, pan, harinas -
+
+
+Meta Description: Agregué una descripción a todas las páginas
+
+
+Alt: Agregué la etiqueta “alt” a todas las imágenes
+
+
+Imágenes: Comprimí todas las imágenes necesarias para tener menor peso (logos, background, etc.)
+
+
+---------------------------------------------------------------------------------------------------
+
+
+Para tener en cuenta las aplicaciones de SASS, cree un nuevo archivo llamado “_mixyext.scss” en donde añadí un Map y un Mixin. En los demás archivos se pueden ver reflejados sus usos y cabe aclarar que en el archivo “_footer.scss”  se puede ver el uso de un extend propio (o sea, sin haber utilizado el Map y/o Mixin ya creados).
+
+
+---------------------------------------------------------------------------------------------------

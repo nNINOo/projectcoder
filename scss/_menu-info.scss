@@ -2,18 +2,18 @@
 
 .info-title {
     position: absolute;
-    color: whitesmoke;
+    color: map-get($estilos, color);
     font-size: 50px;
-    text-align: center;
+    text-align: map-get($estilos, centro);
     padding-top: 15%;
-    font-family: "Oswald";
+    font-family: map-get($estilos, fuente);
     text-shadow: 0 0 15px black;
 }
 
 .info-text {
     margin-top: 20%;
-    color: whitesmoke;
+    color: map-get($estilos, color);
     font-size: 17px;
-    font-family: "Oswald";
+    font-family: map-get($estilos, fuente);
     text-shadow: 0 0 8px black;
 }
