@@ -23,3 +23,16 @@ header {
 .animate__animated.animate__fadeIn {
     --animate-duration: 1.3s;
 }
+
+/* SCROLL PERSONALIZADO */
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background: rgba(153, 74, 0, 0.741);
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgb(249, 216, 175);
+    border-radius: 10px;
+    border: 2px solid rgba(153, 74, 0, 0.741);
+}
