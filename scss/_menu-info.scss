@@ -1,19 +1,36 @@
 /* menu-info */ 
+main {
+    display: flex;
+    justify-content: center;
+}
 
 .info-title {
     position: absolute;
     color: map-get($estilos, color);
     font-size: 50px;
     text-align: map-get($estilos, centro);
-    padding-top: 15%;
+    margin-top: 8%;
     font-family: map-get($estilos, fuente);
     text-shadow: 0 0 15px black;
 }
 
-.info-text {
-    margin-top: 20%;
-    color: map-get($estilos, color);
+.info-text1 {
+    max-width: 1000px;
+    margin-top: 13%;
+    color: rgb(72, 72, 72);
     font-size: 17px;
-    font-family: map-get($estilos, fuente);
-    text-shadow: 0 0 8px black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.info-text {
+    max-width: 1000px;
+    color: rgb(72, 72, 72);
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+span {
+    font-weight: bold;
 }

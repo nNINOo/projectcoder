@@ -32,7 +32,8 @@ input[type=text], input[type=email], textarea {
     padding: 20px;
     margin: 5px 0;
     resize: vertical;
-    border: 1px solid rgb(70, 70, 70);
+    border: 1px solid #d49d36;
+    background-color: #fdefde;
     border-radius: 4px;
 }
 
@@ -40,8 +41,19 @@ input[type=submit] {
     background-color: #d49d36;
     color: white;
     padding: 5px 20px;
-    border: none;
+    border: 2px solid #d49d36;
     border-radius: 4px;
     cursor: pointer;
     margin: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #fdefde;
+    color: #d49d36;
+    padding: 5px 20px;
+    border: 2px solid #d49d36;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    transition: .5s ease;
 }
