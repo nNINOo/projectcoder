@@ -430,8 +430,6 @@ input[type=submit]:hover {
   .section1-img {
     width: 400px;
     height: 400px; }
-  .title-section {
-    font-size: 30px; }
   .p-section {
     font-size: 14px; }
   .a-button {
@@ -441,10 +439,6 @@ input[type=submit]:hover {
     font-size: 14px; }
   span p a {
     font-size: 14px; }
-  .title-section2 {
-    font-size: 30px; }
-  .p-section2 {
-    font-size: 16px; }
   .a-button2 {
     font-size: 11px; } }
 
