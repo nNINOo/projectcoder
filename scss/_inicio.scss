@@ -20,7 +20,7 @@ h1 {
 .section1 {
     background-color: rgb(246, 246, 246);
     padding: 70px 0px;
-    height: 100vh;
+    height: 100%;
 }
 
 .section1-img {
@@ -29,7 +29,6 @@ h1 {
 }
 
 .section1-div {
-    width: 1300px;
     max-width: 95%;
     margin: 0 auto;
     display: flex;
@@ -114,6 +113,12 @@ span p a:hover {
     transition: .3s ease-in;
 }
 
+.section-text2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .title-section2 {
     text-transform: uppercase;
     color: rgb(255, 204, 141);
@@ -145,7 +150,6 @@ span p a:hover {
     display: inline-block;
     font-weight: bold;
     font-size: 17px;
-    margin-left: 74%;
 }
 
 .a-button2:hover {

@@ -1,11 +1,11 @@
 /* menu-productos */
 
 .titles-text {
-    margin-top: 7%;
+    position: block;
     color: map-get($estilos, color);
     font-size: 30px;
     text-align: map-get($estilos, centro);
-    padding: 10px;
+    padding-top: 15px;
     font-family: map-get($estilos, fuente);
     text-shadow: 0 0 3px black;
 }
@@ -14,7 +14,6 @@
     color: map-get($estilos, color);
     font-size: 30px;
     text-align: map-get($estilos, centro);
-    padding: 10px;
     font-family: map-get($estilos, fuente);
     text-shadow: 0 0 3px black;
 }

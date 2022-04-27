@@ -8,15 +8,16 @@
 html {
   height: 100%; }
 
+.container-fluid {
+  background: bisque; }
+
 .background-default {
   background-color: #d8cbbc; }
 
 header {
   width: 100%;
-  height: 100px;
-  margin-top: 40px;
-  position: absolute;
-  z-index: 1; }
+  height: 100%;
+  position: block; }
 
 .animate__animated.animate__fadeIn {
   --animate-duration: 1.3s; }
@@ -34,6 +35,9 @@ body::-webkit-scrollbar-thumb {
 /* MENU BOOTSTRAP */
 .logo {
   width: 100px; }
+
+.navbar {
+  z-index: 80; }
 
 .nav-item {
   font-size: 18px;
@@ -70,14 +74,13 @@ h1 {
 .section1 {
   background-color: #f6f6f6;
   padding: 70px 0px;
-  height: 100vh; }
+  height: 100%; }
 
 .section1-img {
   width: 700px;
   height: 700px; }
 
 .section1-div {
-  width: 1300px;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
@@ -154,6 +157,11 @@ span p a:hover {
   color: bisque;
   transition: .3s ease-in; }
 
+.section-text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
 .title-section2 {
   text-transform: uppercase;
   color: #ffcc8d;
@@ -182,8 +190,7 @@ span p a:hover {
   text-decoration: none;
   display: inline-block;
   font-weight: bold;
-  font-size: 17px;
-  margin-left: 74%; }
+  font-size: 17px; }
 
 .a-button2:hover {
   background-color: #ffb04f;
@@ -236,17 +243,18 @@ main {
   justify-content: center; }
 
 .info-title {
-  position: absolute;
+  position: block;
   color: #f5f5f5;
   font-size: 50px;
   text-align: center;
-  margin-top: 8%;
+  padding-top: 15px;
   font-family: "Oswald";
-  text-shadow: 0 0 15px black; }
+  text-shadow: 0 0 15px black;
+  z-index: 1; }
 
 .info-text1 {
   max-width: 1000px;
-  margin-top: 13%;
+  padding-top: 15px;
   color: #484848;
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
@@ -259,16 +267,24 @@ main {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center; }
 
+.info-text-final {
+  max-width: 1000px;
+  color: #484848;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-bottom: 15px; }
+
 span {
   font-weight: bold; }
 
 /* menu-productos */
 .titles-text {
-  margin-top: 7%;
+  position: block;
   color: #f5f5f5;
   font-size: 30px;
   text-align: center;
-  padding: 10px;
+  padding-top: 15px;
   font-family: "Oswald";
   text-shadow: 0 0 3px black; }
 
@@ -276,7 +292,6 @@ span {
   color: #f5f5f5;
   font-size: 30px;
   text-align: center;
-  padding: 10px;
   font-family: "Oswald";
   text-shadow: 0 0 3px black; }
 
@@ -304,7 +319,7 @@ span {
 
 /* menu-ubicacion */
 .title-ubicacion {
-  margin-top: 7%;
+  padding-top: 15px;
   color: #f5f5f5;
   font-size: 25px;
   text-align: center;
@@ -319,11 +334,10 @@ span {
 
 /* menu-contacto */
 .title-contacto {
-  margin-top: 7%;
+  padding-top: 15px;
   color: #f5f5f5;
   font-size: 25px;
   text-align: center;
-  padding: 10px;
   font-family: "Oswald";
   text-shadow: 0 0 3px black; }
 
@@ -331,7 +345,7 @@ span {
   color: #f5f5f5;
   font-size: 20px;
   text-align: center;
-  padding: 10px;
+  padding-bottom: 10px;
   font-family: "Oswald";
   text-shadow: 0 0 3px black; }
 
@@ -358,28 +372,17 @@ input[type=submit] {
   border: 2px solid #d49d36;
   border-radius: 4px;
   cursor: pointer;
-  margin: 10px; }
+  margin: 15px; }
 
 input[type=submit]:hover {
   background-color: #fdefde;
   color: #d49d36;
-  padding: 5px 20px;
-  border: 2px solid #d49d36;
-  border-radius: 4px;
-  cursor: pointer;
-  margin: 10px;
   transition: .5s ease; }
 
 /* media-query */
 @media screen and (max-width: 1620px) {
-  .titles-text {
-    margin-top: 10%; }
-  .title-ubicacion {
-    margin-top: 10%; }
   .maps {
-    margin: auto; }
-  .title-contacto {
-    margin-top: 10%; } }
+    margin: auto; } }
 
 @media screen and (max-width: 1321px) {
   .section1-img {
@@ -423,16 +426,6 @@ input[type=submit]:hover {
   .a-button2 {
     font-size: 13px; } }
 
-@media screen and (max-width: 1135px) {
-  .titles-text {
-    margin-top: 15%; }
-  .title-ubicacion {
-    margin-top: 15%; }
-  .title-contacto {
-    margin-top: 15%; }
-  .info-text {
-    margin-top: 25%; } }
-
 @media screen and (max-width: 1002px) {
   .section1-img {
     width: 400px;
@@ -453,8 +446,7 @@ input[type=submit]:hover {
   .p-section2 {
     font-size: 16px; }
   .a-button2 {
-    font-size: 11px;
-    margin-left: 81%; } }
+    font-size: 11px; } }
 
 @media screen and (max-width: 991px) {
   h1 {
@@ -463,11 +455,11 @@ input[type=submit]:hover {
     font-size: 14px; }
   .footer li a {
     font-size: 14px; }
-  h2 {
+  h2, .info-title {
     font-size: 40px; }
-  .info-text {
-    font-size: 13px; }
-  .titles-text {
+  .info-text1, .info-text, .info-text-final {
+    font-size: 14px; }
+  .titles-text, .titles-text2 {
     font-size: 27px; }
   .image-product {
     width: 160px;
@@ -481,70 +473,6 @@ input[type=submit]:hover {
   .subtitle {
     font-size: 16px; } }
 
-@media screen and (max-width: 988px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 79%; } }
-
-@media screen and (max-width: 936px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 77%; } }
-
-@media screen and (max-width: 894px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 76%; } }
-
-@media screen and (max-width: 875px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 73%; } }
-
-@media screen and (max-width: 827px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 70%; } }
-
-@media screen and (max-width: 789px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 67%; } }
-
-@media screen and (max-width: 775px) {
-  .titles-text {
-    margin-top: 20%; }
-  .title-ubicacion {
-    margin-top: 20%; }
-  .title-contacto {
-    margin-top: 20%; }
-  .info-title {
-    margin-top: 6%; }
-  .info-text {
-    padding-top: 10%; } }
-
-@media screen and (max-width: 827px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 50%; } }
-
-@media screen and (max-width: 605px) {
-  .titles-text {
-    margin-top: 30%; }
-  .title-ubicacion {
-    margin-top: 30%; }
-  .title-contacto {
-    margin-top: 30%; }
-  .info-title {
-    margin-top: 10%; }
-  .info-text {
-    padding-top: 14%; } }
-
-@media screen and (max-width: 590px) {
-  .a-button2 {
-    font-size: 11px;
-    margin-left: 40%; } }
-
 @media screen and (max-width: 546px) {
   .section1-div {
     width: 100%;
@@ -553,33 +481,36 @@ input[type=submit]:hover {
     display: inline-block;
     align-items: center;
     justify-content: center;
+    text-align: center; }
+  .section1-text, .section-text2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .title-section2 {
     text-align: center; } }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 428px) {
   .info-title {
-    font-size: 40px;
-    margin-top: 20%; }
-  .info-text {
-    padding-top: 30%; } }
+    font-size: 40px; }
+  span p, span p a {
+    font-size: 12px; } }
 
-@media screen and (max-width: 375px) {
-  .titles-text {
-    margin-top: 37%; }
-  .title-ubicacion {
-    margin-top: 35%; }
-  .title-contacto {
-    margin-top: 35%; } }
+@media screen and (max-width: 412px) {
+  .section1-img {
+    width: 300px;
+    height: 300px; } }
 
-@media screen and (max-width: 320px) {
-  .titles-text {
-    margin-top: 43%; }
+@media screen and (max-width: 321px) {
   .title-ubicacion {
-    font-size: 22px;
-    margin-top: 40%; }
-  .title-contacto {
-    margin-top: 40%; }
-  .info-title {
-    font-size: 40px;
-    margin-top: 25%; }
-  .info-text {
-    padding-top: 35%; } }
+    font-size: 22px; }
+  .section1-img {
+    width: 200px;
+    height: 200px; }
+  .title-section, .title-section2 {
+    font-size: 25px; }
+  .p-section, .p-section2 {
+    font-size: 14px; }
+  .a-button, .a-button2 {
+    font-size: 10px; }
+  span p, span p a {
+    font-size: 9px; } }
